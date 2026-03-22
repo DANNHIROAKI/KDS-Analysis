@@ -1,0 +1,36 @@
+{
+  "preset": "TH",
+  "dim": 2,
+  "nR": 2000,
+  "nS": 2000,
+  "family": "F0",
+  "shape_sigma": 0.0,
+  "seed": 1676322064832472753,
+  "coverage": 0.05,
+  "alpha_target": 0.1,
+  "alpha_expected_est": 0.10050061234249431,
+  "pair_intersection_prob_est": 0.0001005006123424943,
+  "chunk_size": 2000000,
+  "volume_dist": "fixed",
+  "volume_cv": 0.25,
+  "tune_samples": 200000,
+  "tune_tol_rel": 0.02,
+  "tune_max_iter": 30,
+  "params": {
+    "nR": 2000,
+    "nS": 2000,
+    "d": 2,
+    "universe": null,
+    "volume_dist": "fixed",
+    "volume_cv": 0.25,
+    "shape_sigma": 0.0,
+    "seed": 1676322064832472753
+  },
+  "tune_history": [
+    {
+      "coverage": 0.05,
+      "alpha_est": 0.10050061234249431
+    }
+  ],
+  "dataset_path": "/home/dhy/PhD/kdtree_exp_small/results/full/datasets/dataset_d2_N2000_a0p1_F0_rep0_seed1676322064832472753.bin"
+}
