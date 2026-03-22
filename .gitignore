@@ -1,0 +1,9 @@
+build/
+*.bin
+.DS_Store
+__pycache__/
+*.pyc
+log
+vendor/*.zip
+docs/
+results/*/datasets/

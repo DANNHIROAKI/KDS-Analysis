@@ -1,0 +1,429 @@
+{
+  "run_id": "input_size_d2_N50000_a10_t200000_F1_rep2",
+  "network": "input_size",
+  "preset": "TH",
+  "family": "F1",
+  "dim": 2,
+  "N": 50000,
+  "alpha_target": 10,
+  "alpha_expected_est": 10.1881,
+  "pair_intersection_prob_est": 0.000407524,
+  "coverage": 4.34156,
+  "data_seed": 8423651988732252339,
+  "sample_seed": 8682861154750440662,
+  "data_rep": 2,
+  "materialize_join": false,
+  "timing_ms": {
+    "T_lift": 1.18885,
+    "T_tree": 12.7065,
+    "T_build": 13.8956,
+    "T_count_query": 62.669,
+    "T_left_dist": 1.12714,
+    "T_count": 63.7962,
+    "T_search_scan": 69.1719,
+    "T_plan_left": 4.97773,
+    "T_group": 12.4713,
+    "T_decompose": 69.6262,
+    "T_local_dist": 15.477,
+    "T_emit": 8.54272,
+    "T_sample": 119.172
+  },
+  "build": {
+    "tree_height": 16,
+    "max_depth": 15,
+    "avg_node_depth": 13.6896,
+    "node_count": 50000
+  },
+  "count": {
+    "exact_join_size": 1018449,
+    "alpha_actual": 10.1845,
+    "w":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 1,
+      "max": 71,
+      "mean": 20.369,
+      "median": 20,
+      "p90": 27,
+      "p99": 35
+    },
+    "V_count":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 25,
+      "max": 212,
+      "mean": 88.0187,
+      "median": 87,
+      "p90": 115,
+      "p99": 139
+    },
+    "P_count":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 11,
+      "max": 76,
+      "mean": 35.6327,
+      "median": 35,
+      "p90": 48,
+      "p99": 58
+    },
+    "C_count":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 0,
+      "max": 29,
+      "mean": 6.09682,
+      "median": 6,
+      "p90": 9,
+      "p99": 12
+    },
+    "H_count":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 12,
+      "max": 115,
+      "mean": 46.2891,
+      "median": 46,
+      "p90": 61,
+      "p99": 73
+    },
+    "S_prune":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 49773,
+      "max": 49967,
+      "mean": 49906.1,
+      "median": 49907,
+      "p90": 49932,
+      "p99": 49948
+    },
+    "S_contain":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 0,
+      "max": 27,
+      "mean": 5.847,
+      "median": 5,
+      "p90": 10,
+      "p99": 15
+    },
+    "D_count_max":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 12,
+      "max": 15,
+      "mean": 14.9981,
+      "median": 15,
+      "p90": 15,
+      "p99": 15
+    }
+  },
+  "search_equal": {
+    "V_search":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 24,
+      "max": 183,
+      "mean": 81.9218,
+      "median": 81,
+      "p90": 108,
+      "p99": 131
+    },
+    "P_search":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 11,
+      "max": 76,
+      "mean": 35.6327,
+      "median": 35,
+      "p90": 48,
+      "p99": 58
+    },
+    "B_mid":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 0,
+      "max": 32,
+      "mean": 8.42516,
+      "median": 8,
+      "p90": 12,
+      "p99": 16
+    },
+    "B_leaf":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p90": 0,
+      "p99": 0
+    },
+    "B_subtree":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 0,
+      "max": 29,
+      "mean": 6.09682,
+      "median": 6,
+      "p90": 9,
+      "p99": 12
+    },
+    "m":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 1,
+      "max": 56,
+      "mean": 14.522,
+      "median": 14,
+      "p90": 20,
+      "p99": 25
+    },
+    "M_point":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 0,
+      "max": 32,
+      "mean": 8.42516,
+      "median": 8,
+      "p90": 12,
+      "p99": 16
+    },
+    "M_subtree":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 0,
+      "max": 44,
+      "mean": 11.9438,
+      "median": 12,
+      "p90": 17,
+      "p99": 23
+    },
+    "rho":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 1,
+      "max": 6.75,
+      "mean": 1.43765,
+      "median": 1.375,
+      "p90": 1.78571,
+      "p99": 2.57143
+    },
+    "sigma":     {
+      "count": 50000,
+      "weight_sum": 50000,
+      "min": 0,
+      "max": 1,
+      "mean": 0.581741,
+      "median": 0.583333,
+      "p90": 0.733333,
+      "p99": 0.85
+    },
+    "avg_subtree_mass":     {
+      "count": 49989,
+      "weight_sum": 49989,
+      "min": 1,
+      "max": 23,
+      "mean": 2.06324,
+      "median": 1.875,
+      "p90": 3,
+      "p99": 5
+    }
+  },
+  "search_weighted": {
+    "V_search":     {
+      "count": 50000,
+      "weight_sum": 1.01845e+06,
+      "min": 24,
+      "max": 183,
+      "mean": 83.3561,
+      "median": 82,
+      "p90": 110,
+      "p99": 133
+    },
+    "P_search":     {
+      "count": 50000,
+      "weight_sum": 1.01845e+06,
+      "min": 11,
+      "max": 76,
+      "mean": 36.0761,
+      "median": 36,
+      "p90": 48,
+      "p99": 59
+    },
+    "B_mid":     {
+      "count": 50000,
+      "weight_sum": 1.01845e+06,
+      "min": 0,
+      "max": 32,
+      "mean": 8.89647,
+      "median": 9,
+      "p90": 13,
+      "p99": 17
+    },
+    "B_leaf":     {
+      "count": 50000,
+      "weight_sum": 1.01845e+06,
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p90": 0,
+      "p99": 0
+    },
+    "B_subtree":     {
+      "count": 50000,
+      "weight_sum": 1.01845e+06,
+      "min": 0,
+      "max": 29,
+      "mean": 6.4485,
+      "median": 6,
+      "p90": 9,
+      "p99": 13
+    },
+    "m":     {
+      "count": 50000,
+      "weight_sum": 1.01845e+06,
+      "min": 1,
+      "max": 56,
+      "mean": 15.345,
+      "median": 15,
+      "p90": 21,
+      "p99": 27
+    },
+    "M_point":     {
+      "count": 50000,
+      "weight_sum": 1.01845e+06,
+      "min": 0,
+      "max": 32,
+      "mean": 8.89647,
+      "median": 9,
+      "p90": 13,
+      "p99": 17
+    },
+    "M_subtree":     {
+      "count": 50000,
+      "weight_sum": 1.01845e+06,
+      "min": 0,
+      "max": 44,
+      "mean": 12.8367,
+      "median": 12,
+      "p90": 18,
+      "p99": 25
+    },
+    "rho":     {
+      "count": 50000,
+      "weight_sum": 1.01845e+06,
+      "min": 1,
+      "max": 6.75,
+      "mean": 1.45284,
+      "median": 1.38462,
+      "p90": 1.81818,
+      "p99": 2.57143
+    },
+    "sigma":     {
+      "count": 50000,
+      "weight_sum": 1.01845e+06,
+      "min": 0,
+      "max": 1,
+      "mean": 0.586373,
+      "median": 0.588235,
+      "p90": 0.733333,
+      "p99": 0.846154
+    },
+    "avg_subtree_mass":     {
+      "count": 49989,
+      "weight_sum": 1.01838e+06,
+      "min": 1,
+      "max": 23,
+      "mean": 2.09835,
+      "median": 2,
+      "p90": 3,
+      "p99": 5
+    }
+  },
+  "sample": {
+    "t": 200000,
+    "chunk_size": 2000000,
+    "num_chunks": 1,
+    "U_t": 48556,
+    "G_t": 48556,
+    "avg_repeat_global": 4.11896,
+    "avg_group_size_exec": 4.11896,
+    "samples_per_sec": 1.67825e+06,
+    "ns_per_sample": 595.858,
+    "checksum": 436492811442121166,
+    "group_size_equal":     {
+      "count": 48556,
+      "weight_sum": 48556,
+      "min": 1,
+      "max": 18,
+      "mean": 4.11896,
+      "median": 4,
+      "p90": 7,
+      "p99": 10
+    },
+    "group_size_sample_weighted":     {
+      "count": 48556,
+      "weight_sum": 200000,
+      "min": 1,
+      "max": 18,
+      "mean": 5.25433,
+      "median": 5,
+      "p90": 8,
+      "p99": 12
+    },
+    "K_point_equal":     {
+      "count": 48556,
+      "weight_sum": 48556,
+      "min": 0,
+      "max": 11,
+      "mean": 1.70352,
+      "median": 1,
+      "p90": 4,
+      "p99": 6
+    },
+    "K_point_sample_weighted":     {
+      "count": 48556,
+      "weight_sum": 200000,
+      "min": 0,
+      "max": 11,
+      "mean": 2.15656,
+      "median": 2,
+      "p90": 4,
+      "p99": 7
+    },
+    "K_subtree_equal":     {
+      "count": 48556,
+      "weight_sum": 48556,
+      "min": 0,
+      "max": 14,
+      "mean": 2.41544,
+      "median": 2,
+      "p90": 5,
+      "p99": 7
+    },
+    "K_subtree_sample_weighted":     {
+      "count": 48556,
+      "weight_sum": 200000,
+      "min": 0,
+      "max": 14,
+      "mean": 3.09777,
+      "median": 3,
+      "p90": 6,
+      "p99": 8
+    }
+  },
+  "checks": {
+    "count_sum_matches": true,
+    "decompose_mass_matches": true,
+    "sample_valid": true,
+    "empty_output_consistent": true,
+    "materialized_join_matches": true,
+    "materialized_join_size": 0,
+    "pair_tv_to_uniform": null,
+    "pair_linf_to_uniform": null,
+    "left_tv_to_theory": null,
+    "distinct_pairs_sampled": 0
+  }
+}

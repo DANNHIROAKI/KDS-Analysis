@@ -1,0 +1,43 @@
+{
+  "correctness": {
+    "dims": [2, 3, 4, 5],
+    "N": 2000,
+    "alpha_target": [0.1, 10.0, 100.0],
+    "t": 200000,
+    "families": ["F0", "F1"],
+    "reps": [0],
+    "materialize_join": true
+  },
+  "density": {
+    "dims": [2, 3, 4, 5],
+    "N": 50000,
+    "alpha_target": [0.1, 1.0, 10.0, 100.0],
+    "t": 200000,
+    "families": ["F0", "F1"],
+    "reps": [0, 1, 2]
+  },
+  "input_size": {
+    "dims": [2, 3, 4, 5],
+    "N": [10000, 50000, 100000],
+    "alpha_target": 10.0,
+    "t": 200000,
+    "families": ["F0", "F1"],
+    "reps": [0, 1, 2]
+  },
+  "sample_size": {
+    "dims": [2, 3, 4, 5],
+    "N": 50000,
+    "alpha_target": 10.0,
+    "t": [10000, 50000, 200000, 1000000],
+    "families": ["F0", "F1"],
+    "reps": [0, 1, 2]
+  },
+  "chunk": {
+    "dims": [2, 5],
+    "N": 20000,
+    "alpha_target": 10.0,
+    "t": [500000, 2000000, 3000000],
+    "families": ["F0", "F1"],
+    "reps": [0, 1]
+  }
+}

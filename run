@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+MODE="full"
+for arg in "$@"; do
+  case "$arg" in
+    --smoke) MODE="smoke" ;;
+    --full) MODE="full" ;;
+    *) ;;
+  esac
+done
+
+ROOT="$(cd "$(dirname "$0")" && pwd)"
+cd "$ROOT"
+
+python3 scripts/verify_vendor_integrity.py
+make -j"${JOBS:-2}"
+mkdir -p "results/${MODE}"
+./build/isrjs_smoke | tee "results/${MODE}/isrjs_smoke.txt"
+python3 scripts/run_plan.py --mode "$MODE"

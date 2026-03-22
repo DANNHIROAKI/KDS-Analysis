@@ -1,0 +1,14 @@
+{
+  "name": "TH",
+  "dtype": "float32",
+  "volume_dist": "fixed",
+  "volume_cv": 0.25,
+  "shape_sigma": {
+    "F0": 0.0,
+    "F1": 0.75
+  },
+  "tune_samples": 200000,
+  "tune_tol_rel": 0.02,
+  "tune_max_iter": 30,
+  "chunk_size": 2000000
+}
