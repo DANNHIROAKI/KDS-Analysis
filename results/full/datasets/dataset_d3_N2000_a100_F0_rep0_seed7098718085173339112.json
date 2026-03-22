@@ -1,0 +1,72 @@
+{
+  "preset": "TH",
+  "dim": 3,
+  "nR": 2000,
+  "nS": 2000,
+  "family": "F0",
+  "shape_sigma": 0.0,
+  "seed": 7098718085173339112,
+  "coverage": 18.835307686551115,
+  "alpha_target": 100.0,
+  "alpha_expected_est": 99.73897271632603,
+  "pair_intersection_prob_est": 0.09973897271632602,
+  "chunk_size": 2000000,
+  "volume_dist": "fixed",
+  "volume_cv": 0.25,
+  "tune_samples": 200000,
+  "tune_tol_rel": 0.02,
+  "tune_max_iter": 30,
+  "params": {
+    "nR": 2000,
+    "nS": 2000,
+    "d": 3,
+    "universe": null,
+    "volume_dist": "fixed",
+    "volume_cv": 0.25,
+    "shape_sigma": 0.0,
+    "seed": 7098718085173339112
+  },
+  "tune_history": [
+    {
+      "coverage": 50.0,
+      "alpha_est": 281.91658915729994
+    },
+    {
+      "coverage": 2.2360679774997915e-07,
+      "alpha_est": 8.950736769525687e-07
+    },
+    {
+      "coverage": 0.003343701524882112,
+      "alpha_est": 0.013614297307987643
+    },
+    {
+      "coverage": 0.40888271697897133,
+      "alpha_est": 1.7837533944064368
+    },
+    {
+      "coverage": 4.521519197012058,
+      "alpha_est": 21.793270851600035
+    },
+    {
+      "coverage": 15.03582255317623,
+      "alpha_est": 78.34607897188656
+    },
+    {
+      "coverage": 27.418809741832554,
+      "alpha_est": 149.11350921712605
+    },
+    {
+      "coverage": 20.304294075330322,
+      "alpha_est": 108.09879918362891
+    },
+    {
+      "coverage": 17.472600344086572,
+      "alpha_est": 92.02567352147777
+    },
+    {
+      "coverage": 18.835307686551115,
+      "alpha_est": 99.73897271632603
+    }
+  ],
+  "dataset_path": "/home/dhy/PhD/kdtree_exp_small/results/full/datasets/dataset_d3_N2000_a100_F0_rep0_seed7098718085173339112.bin"
+}
